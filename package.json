@@ -1,0 +1,26 @@
+{
+  "name": "show-the-code",
+  "version": "1.0.0",
+  "description": "Blog format for DLs job fair",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GersonHareb/show-the-code.git"
+  },
+  "keywords": [
+    "blog",
+    "format",
+    "desafio",
+    "latam"
+  ],
+  "author": "Gerson Hareb Herrera Ruminot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GersonHareb/show-the-code/issues"
+  },
+  "homepage": "https://github.com/GersonHareb/show-the-code#readme"
+}
