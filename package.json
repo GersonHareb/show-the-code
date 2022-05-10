@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/GersonHareb/show-the-code/issues"
   },
-  "homepage": "https://github.com/GersonHareb/show-the-code#readme"
+  "homepage": "https://github.com/GersonHareb/show-the-code#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.3.1",
+    "express-handlebars": "^6.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  }
 }

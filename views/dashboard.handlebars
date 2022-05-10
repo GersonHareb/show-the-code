@@ -1,0 +1,54 @@
+{{>nav}}
+<section class="dashboard-body">
+    <div class="dashboard-nav">
+      <div class="author-section bg-dark">
+        <img src="" alt="" class="author-pfp" id="aImage">
+        <div class="author-data">
+          <h6 class="author-name text-light" id="aName">
+          </h6>
+          <p class="author-subtitle text-italic text-light">Author</p>
+        </div>
+      </div>
+      <div class="dashboard-nav-list">
+        <a href="" class="dashboard-nav-item text-dark">Home</a>
+        <a href="" class="dashboard-nav-item text-dark">Edit user</a>
+        <a href="" class="dashboard-nav-item text-dark">Logout</a>
+      </div>
+    </div>
+  <div class="container">
+    <div class="dashboard-control bg-dark">
+      <div class="post-count">
+        <i data-feather="book-open"></i>
+        <h3>Posts</h3>
+      </div>
+      <div class="user-count">
+        <i data-feather="user"></i>
+        <h3>Users</h3>
+      </div>
+      <div class="comment-count">
+        <i data-feather="message-circle"></i>
+        <h3>Comments</h3>
+      </div>
+    </div>
+    <div class="content-control">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 h-100">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">New post</h5>
+              <p class="card-text">Use this section to start sharing with the world.</p>
+            </div>
+            <div class="card-footer">
+              <a href="">
+                <div class="create-button bg-success ms-auto">
+                  <i data-feather="plus"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        {{>card}}
+      </div>
+    </div>
+  </div>
+</section>
